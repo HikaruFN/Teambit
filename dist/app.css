@@ -4,3 +4,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1, h2, p, span {
+  color: #58402C;
+  padding-top: 15px;
+}
+
+.narrow-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  color: white;
+  background-color: #2E4790;
+  padding: 5px;
+}
+button img {
+  width: 20px;
+  padding-right: 5px;
+}
+
+/*Nav*/
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav-container img {
+  color: #58402C;
+}
+.nav-container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-container ul li {
+  color: #58402C;
+  list-style-type: none;
+  padding-left: 10px;
+}
+.nav-container ul li button {
+  color: #2E4790;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #2E4790;
+}
+
+/*Jumbotron*/
+.jumbotron-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.jumbotron-container .jumbotron-heading-container {
+  display: flex;
+  flex-direction: column;
+}
+.jumbotron-container .jumbotron-img-container {
+  width: 50%;
+}
+.jumbotron-container .jumbotron-img-container img {
+  width: 100%;
+  overflow: hidden;
+}

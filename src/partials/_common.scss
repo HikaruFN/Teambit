@@ -5,3 +5,21 @@
     box-sizing: border-box;
 }
 
+h1, h2, p, span{
+    color: $secundary_color;
+    padding-top: 15px;
+}
+
+.narrow-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.buttons-container{
+    @include flex_row;
+    margin-top: 40px;
+}
+
+button{
+    @include button_style;
+}

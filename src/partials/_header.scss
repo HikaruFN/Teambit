@@ -1,0 +1,41 @@
+/*Nav*/
+.nav-container{
+    @include flex_row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+        img{
+            color: $secundary_color;
+        }
+        ul{
+            @include flex_row;
+            align-items: center;
+            li{
+                color: $secundary_color;
+                list-style-type: $list_style;
+                padding-left: 10px;
+                button{
+                    color: #2E4790;
+                    background-color: white;
+                    padding: 10px;
+                    border: 1px solid #2E4790;
+                }
+            }
+        }
+}
+
+/*Jumbotron*/
+.jumbotron-container{
+    @include flex_row;
+    margin-top: 30px;
+    .jumbotron-heading-container{
+        @include flex_column;
+    }
+    .jumbotron-img-container{
+        width: 50%;
+        img{
+            width: 100%;
+            overflow: hidden;
+        }
+    } 
+}

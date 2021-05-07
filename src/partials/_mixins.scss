@@ -16,13 +16,21 @@
     color: white;
     background-color: #2E4790;
     padding: 5px;
+    cursor: pointer;
         img{
             width: 20px;
             padding-right: 5px;
         }
 }
 
+@mixin li_style {
+    color: $secundary_color;
+    list-style-type: none;
+    cursor: pointer;
+}
+
 @mixin link_style {
     text-decoration: none;
-    color: #2E4790;    
+    color: #2E4790;  
+    cursor: pointer;  
 }

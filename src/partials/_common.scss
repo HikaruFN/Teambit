@@ -9,15 +9,19 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-h1, h2, p, span{
+h1, h2, h3, p, span{
     color: $secundary_color;
     padding-top: 15px;
+    font-weight: bolder;
 }
 hr{
     color: $secundary_color;
 }
 button{
     @include button_style;
+}
+li{
+    @include li_style;
 }
 a{
     @include link_style;
@@ -27,6 +31,7 @@ a{
 .narrow-container {
     max-width: 1200px;
     margin: auto;
+    padding: $default_spacing;;
     .relevant-text-container, .small-imgs-container, .rubbit-img-container{
         padding: 40px 0;
     }
@@ -40,8 +45,8 @@ a{
     @include flex_row;
     justify-content: center;
 }
-.white-container{
-    background-color: white;
+.white-container{/*Da rivedere*/
+    background-color: $bg_white;
     
 }
 

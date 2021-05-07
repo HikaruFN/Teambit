@@ -34,6 +34,7 @@ main{
     @include flex_row;
     justify-content: center;
     align-items: center;
+    padding: $default_spacing;
     .container-service-info{
         @include flex_column;
     }
@@ -47,8 +48,10 @@ main{
     @include flex_column;
     justify-content: center;
     align-items: center;
+    padding: $default_spacing;
 }
 .join-us-container{
+    max-width: 900px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;

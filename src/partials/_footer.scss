@@ -1,0 +1,26 @@
+.footer-container{
+    @include flex_row;
+    background-color: $bg_white;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: $default_spacing;
+    .footer-logo-container{
+        @include flex_row;
+        img{
+            width: 60px;
+            margin-right: 10px;
+        }
+    }
+    .footer-nav-container{
+        @include flex_column;
+        h2{
+            margin-bottom: 10px;
+        }
+        ul{
+            @include flex_column;
+            li{
+                margin-top: 10px;
+            }
+        }
+    }
+}

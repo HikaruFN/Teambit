@@ -11,8 +11,6 @@
             @include flex_row;
             align-items: center;
             li{
-                color: $secundary_color;
-                list-style-type: $list_style;
                 padding-left: 10px;
                 button{
                     color: #2E4790;

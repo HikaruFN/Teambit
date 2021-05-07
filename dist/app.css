@@ -12,13 +12,13 @@ body {
 }
 
 h1, h2, h3, p, span {
-  color: #58402C;
+  color: #7F14D4;
   padding-top: 15px;
   font-weight: bolder;
 }
 
 hr {
-  color: #58402C;
+  color: #7F14D4;
 }
 
 button {
@@ -38,7 +38,7 @@ button img {
 }
 
 li {
-  color: #58402C;
+  color: #7F14D4;
   list-style-type: none;
   cursor: pointer;
 }
@@ -86,7 +86,7 @@ a {
   padding: 10px;
 }
 .nav-container img {
-  color: #58402C;
+  color: #7F14D4;
 }
 .nav-container ul {
   display: flex;
@@ -122,7 +122,7 @@ a {
 }
 
 main {
-  background-color: #FFE7D2;
+  background-color: #0414B3;
 }
 
 /*Introduction*/

@@ -19,6 +19,9 @@ hr{
 button{
     @include button_style;
 }
+a{
+    @include link_style;
+}
 
 /*Containers*/
 .narrow-container {
@@ -30,6 +33,7 @@ button{
 }
 .buttons-container{
     @include flex_row;
+    align-items: baseline;
     margin-top: 40px;
 }
 .relevant-text-container{
@@ -40,5 +44,6 @@ button{
     background-color: white;
     
 }
+
 
 

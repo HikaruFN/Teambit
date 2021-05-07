@@ -41,3 +41,32 @@ main{
         width: 50%;
     }
 }
+
+/*Get Started*/
+.get-started-content{
+    @include flex_column;
+    justify-content: center;
+    align-items: center;
+}
+.join-us-container{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+.co-founders-container{
+    @include flex_row;
+    align-items: center;
+    margin-top: 15px;
+    img{
+        width: 50px;
+        margin: 0 15px;
+    }
+    .co-founders-info-container{
+        @include flex_column;
+        *{
+            padding-top: 0;
+        }
+    }
+}

@@ -22,7 +22,9 @@ hr {
 button {
   display: flex;
   flex-direction: row;
+  align-items: center;
   border-radius: 5px;
+  margin: 0 5px;
   color: white;
   background-color: #2E4790;
   padding: 5px;
@@ -30,6 +32,11 @@ button {
 button img {
   width: 20px;
   padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #2E4790;
 }
 
 /*Containers*/
@@ -44,6 +51,7 @@ button img {
 .buttons-container {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   margin-top: 40px;
 }
 
@@ -149,4 +157,38 @@ main {
 }
 .service-container img {
   width: 50%;
+}
+
+/*Get Started*/
+.get-started-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-us-container {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.co-founders-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.co-founders-container img {
+  width: 50px;
+  margin: 0 15px;
+}
+.co-founders-container .co-founders-info-container {
+  display: flex;
+  flex-direction: column;
+}
+.co-founders-container .co-founders-info-container * {
+  padding-top: 0;
 }

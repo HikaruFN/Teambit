@@ -5,21 +5,60 @@
     box-sizing: border-box;
 }
 
+/*General*/
 h1, h2, p, span{
     color: $secundary_color;
     padding-top: 15px;
 }
+hr{
+    color: $secundary_color;
+}
+button{
+    @include button_style;
+}
+main{
+    background-color: $primary_color;
+}
 
+/*Containers*/
 .narrow-container {
     max-width: 1200px;
     margin: auto;
+    .relevant-text-container, .small-imgs-container, .rubbit-img-container{
+        padding: 40px 0;
+    }
 }
-
 .buttons-container{
     @include flex_row;
     margin-top: 40px;
 }
-
-button{
-    @include button_style;
+.relevant-text-container{
+    @include flex_row;
+    justify-content: center;
 }
+.rubbit-img-container{
+    @include flex_row;
+    justify-content: center;
+    img{
+        width: 300px;
+    }
+
+}
+.small-imgs-container{
+    @include flex_row;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+        width: 120px;
+    }
+        .small-img-with-text{
+            @include flex_column;
+            justify-content: center;
+            align-items: center;
+            #special-img{
+                width: 50px;
+            }
+        }
+}
+
+

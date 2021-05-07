@@ -5,20 +5,14 @@
   box-sizing: border-box;
 }
 
+/*General*/
 h1, h2, p, span {
   color: #58402C;
   padding-top: 15px;
 }
 
-.narrow-container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.buttons-container {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
+hr {
+  color: #58402C;
 }
 
 button {
@@ -32,6 +26,59 @@ button {
 button img {
   width: 20px;
   padding-right: 5px;
+}
+
+main {
+  background-color: #FFE7D2;
+}
+
+/*Containers*/
+.narrow-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.narrow-container .relevant-text-container, .narrow-container .small-imgs-container, .narrow-container .rubbit-img-container {
+  padding: 40px 0;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.relevant-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rubbit-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rubbit-img-container img {
+  width: 300px;
+}
+
+.small-imgs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.small-imgs-container img {
+  width: 120px;
+}
+.small-imgs-container .small-img-with-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.small-imgs-container .small-img-with-text #special-img {
+  width: 50px;
 }
 
 /*Nav*/

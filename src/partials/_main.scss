@@ -1,0 +1,43 @@
+main{
+    background-color: $primary_color;
+}
+
+/*Introduction*/
+.rubbit-img-container{
+    @include flex_row;
+    justify-content: center;
+    img{
+        width: 300px;
+    }
+
+}
+.small-imgs-container{
+    @include flex_row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    img{
+        width: 120px;
+    }
+        .small-img-with-text{
+            @include flex_column;
+            justify-content: center;
+            align-items: center;
+            
+            #special-img{
+                width: 50px;
+            }
+        }
+}
+
+/*Services*/
+.service-container{
+    @include flex_row;
+    justify-content: center;
+    align-items: center;
+    .container-service-info{
+        @include flex_column;
+    }
+    img{
+        width: 50%;
+    }
+}

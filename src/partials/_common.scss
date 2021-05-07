@@ -6,6 +6,9 @@
 }
 
 /*General*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 h1, h2, p, span{
     color: $secundary_color;
     padding-top: 15px;
@@ -15,9 +18,6 @@ hr{
 }
 button{
     @include button_style;
-}
-main{
-    background-color: $primary_color;
 }
 
 /*Containers*/
@@ -36,29 +36,9 @@ main{
     @include flex_row;
     justify-content: center;
 }
-.rubbit-img-container{
-    @include flex_row;
-    justify-content: center;
-    img{
-        width: 300px;
-    }
-
-}
-.small-imgs-container{
-    @include flex_row;
-    align-items: center;
-    justify-content: space-evenly;
-    img{
-        width: 120px;
-    }
-        .small-img-with-text{
-            @include flex_column;
-            justify-content: center;
-            align-items: center;
-            #special-img{
-                width: 50px;
-            }
-        }
+.white-container{
+    background-color: white;
+    
 }
 
 

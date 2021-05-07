@@ -6,6 +6,10 @@
 }
 
 /*General*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 h1, h2, p, span {
   color: #58402C;
   padding-top: 15px;
@@ -26,10 +30,6 @@ button {
 button img {
   width: 20px;
   padding-right: 5px;
-}
-
-main {
-  background-color: #FFE7D2;
 }
 
 /*Containers*/
@@ -53,32 +53,8 @@ main {
   justify-content: center;
 }
 
-.rubbit-img-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.rubbit-img-container img {
-  width: 300px;
-}
-
-.small-imgs-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.small-imgs-container img {
-  width: 120px;
-}
-.small-imgs-container .small-img-with-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.small-imgs-container .small-img-with-text #special-img {
-  width: 50px;
+.white-container {
+  background-color: white;
 }
 
 /*Nav*/
@@ -125,4 +101,52 @@ main {
 .jumbotron-container .jumbotron-img-container img {
   width: 100%;
   overflow: hidden;
+}
+
+main {
+  background-color: #FFE7D2;
+}
+
+/*Introduction*/
+.rubbit-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rubbit-img-container img {
+  width: 300px;
+}
+
+.small-imgs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+.small-imgs-container img {
+  width: 120px;
+}
+.small-imgs-container .small-img-with-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.small-imgs-container .small-img-with-text #special-img {
+  width: 50px;
+}
+
+/*Services*/
+.service-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.service-container .container-service-info {
+  display: flex;
+  flex-direction: column;
+}
+.service-container img {
+  width: 50%;
 }

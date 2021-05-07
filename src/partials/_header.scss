@@ -13,10 +13,10 @@
             li{
                 padding-left: 10px;
                 button{
-                    color: #2E4790;
+                    color: $button_color;
                     background-color: white;
                     padding: 10px;
-                    border: 1px solid #2E4790;
+                    border: 1px solid $button_color;
                 }
             }
         }
